@@ -20,9 +20,9 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
+/*.header h1 .seo {
     color: #d9dcd6;
-}
+}*/
 
 .header nav {
     padding-top: 15px;
@@ -32,11 +32,10 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
-    list-style-type: none;
-}
 
-.header nav ul li {
+
+.header li {
+    list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
@@ -59,7 +58,7 @@ p {
     background-position: center;
 }
 
-.float-left {
+/*.float-left {
     float: left;
     margin-right: 25px;
 }
@@ -67,7 +66,7 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
+}*/
 
 .content {
     width: 75%;
@@ -134,7 +133,7 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+#search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,7 +142,7 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+#online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -152,7 +151,7 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing {
+#social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -163,14 +162,20 @@ p {
 
 .search-engine-optimization img {
     max-height: 200px;
+    margin-right: 25px;
+    float: left;
 }
 
 .online-reputation-management img {
     max-height: 200px;
+    margin-left: 25px;
+    float: right;
 }
 
 .social-media-marketing img {
     max-height: 200px;
+    margin-right: 25px;
+    float: left;
 }
 
 .search-engine-optimization h2 {
