@@ -77,6 +77,8 @@ p {
     background-color: #2589bd;
 }
 
+/* content associated with links associated to the right of the webpage */
+
 .benefit-lead, 
 .benefit-brand, 
 .benefit-cost {
@@ -98,7 +100,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* class content of links at the top right of the page */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
